@@ -738,7 +738,7 @@
                                 </figure>
                             </div>
                         </div>
-                        <!-- End: .grid .project-gallery -->
+                         End: .grid .project-gallery -->
     </div>
     <!-- End: .grid .project-gallery -->
     </div>
@@ -876,6 +876,13 @@
            BLOG
         ===================
         -->
+    <script>
+        fetch('https://www.ahadmajdami.me/blogtest/wp-json/wp/v2/posts?per_page=3')
+            .then(response => response.json())
+            .then(data => console.log(data));
+    </script>
+
+
     <section class="mh-blog image-bg featured-img-two" id="mh-blog">
         <div class="img-color-overlay">
             <div class="container">

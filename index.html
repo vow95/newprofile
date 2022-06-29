@@ -13,6 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- FAV AND ICONS   -->
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=cairo:300,400,500,700|Cairo+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <link rel="shortcut icon" href="assets/images/apple-icon.png">
     <link rel="shortcut icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
@@ -876,71 +879,178 @@
            BLOG
         ===================
         -->
-    <script>
+    <!-- <script>
         fetch('https://www.ahadmajdami.me/blogtest/wp-json/wp/v2/posts?per_page=3')
             .then(response => response.json())
             .then(data => console.log(data));
-    </script>
+    </script> -->
+
 
 
     <section class="mh-blog image-bg featured-img-two" id="mh-blog">
-        <div class="img-color-overlay">
-            <div class="container">
-                <div class="row section-separator">
-                    <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                        <h3>Featured Posts</h3>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                            <img src="gold.png" alt="" class="img-fluid">
-                            <div class="blog-inner">
-                                <h2><a href="goldenRepair.html">KINTSUGI.. GOLDEN REPAIR</a></h2>
-                                <div class="mh-blog-post-info">
-                                    <ul>
-                                        <li><strong>Post On</strong><a href="#">16.6.22</a></li>
-                                        <li><strong>By</strong><a href="#">Ahad Mjaddami</a></li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    When a bowl is broken in Japan, it is reassembled with the fractures filled with gold to create a beautiful lining.</p>
-                                <a href="goldenRepair.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-4">
-                        <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                            <img src="monkey.png" alt="" class="img-fluid">
-                            <div class="blog-inner">
-                                <h2><a href="MasterProcrastinator.html">Inside the Mind of a Master Procrastinator</a></h2>
-                                <div class="mh-blog-post-info">
-                                    <ul>
-                                        <li><strong>Post On</strong><a href="#">5.5.22</a></li>
-                                        <li><strong>By</strong><a href="#">Ahad Mjaddami</a></li>
-                                    </ul>
-                                </div>
-                                <p>This is one of my favorite videos ever .. and yes this is what happens on my brain all the time .. till I start to control it to be a business leader</p>
-                                <a href="MasterProcrastinator.html">Read More</a>
-                            </div>
+        <div class="cards" id="morphingCards">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Featured Posts</h3>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                            <img src="pre.png" alt="" class="img-fluid">
-                            <div class="blog-inner">
-                                <h2><a href="Blockchain.html">ChainTech Blockchain new product </a></h2>
-                                <div class="mh-blog-post-info">
-                                    <ul>
-                                        <li><strong>Post On</strong><a href="#">16.5.22</a></li>
-                                        <li><strong>By</strong><a href="#">Ahad Mjaddami</a></li>
-                                    </ul>
-                                </div>
-                                <p>Counterfeit products are important and growing global problem, particularly in developing countries..</p>
-                                <a href="Blockchain.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
 
+
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="rotating-card-container">
+                                <div class="card card-rotate card-background">
+                                    <div class="front front-background" style="background-image: url('gold.png');">
+                                        <div class="card-body">
+                                            <h6 class="card-category">Changing</h6>
+                                            <a href="goldenRepair.html">
+                                                <h3 class="card-title">KINTSUGI.. GOLDEN REPAIR</h3>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="back back-background" style="background-image: url('gold.png');">
+                                        <div class="card-body">
+
+
+                                            <div class="blog-inner">
+
+                                                <div class="mh-blog-post-info">
+                                                    <ul>
+                                                        <li><strong>Post On</strong><a href="#">16.6.22</a></li>
+                                                        <li><strong>By</strong><a href="#">Ahad Mjaddami</a></li>
+                                                    </ul>
+                                                </div>
+                                                <p>
+                                                    When a bowl is broken in Japan, it is reassembled with the fractures filled with gold to create a beautiful lining.</p>
+
+                                            </div>
+
+
+                                            <div class="footer text-center">
+
+
+                                                <a href="goldenRepair.html" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Read More</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="rotating-card-container">
+                                <div class="card card-rotate card-background">
+                                    <div class="front front-background" style="background-image: url('monkey.png');">
+                                        <div class="card-body">
+                                            <h6 class="card-category">Changing</h6>
+                                            <a href="MasterProcrastinator.html">
+                                                <h3 class="card-title">Inside the Mind of a Master Procrastinator</h3>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="back back-background" style="background-image: url('monkey.png');">
+                                        <div class="card-body">
+
+
+                                            <div class="blog-inner">
+
+                                                <div class="mh-blog-post-info">
+                                                    <ul>
+
+                                                        <li><strong>Post On</strong><a href="#">5.5.22</a></li>
+                                                        <li><strong>By</strong><a href="#">Ahad Mjaddami</a></li>
+                                                    </ul>
+
+                                                </div>
+                                                <p>This is one of my favorite videos ever .. and yes this is what happens on my brain all the time .. till I start to control it to be a business leader</p>
+
+                                            </div>
+
+
+                                            <div class="footer text-center">
+
+
+                                                <a href="MasterProcrastinator.html" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Read More</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="rotating-card-container">
+                                <div class="card card-rotate card-background">
+                                    <div class="front front-background" style="background-image: url('pre.png');">
+                                        <div class="card-body">
+                                            <h6 class="card-category">cybersecurity</h6>
+                                            <a href="Blockchain.html">
+                                                <h3 class="card-title">ChainTech Blockchain new product</h3>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="back back-background" style="background-image: url('pre.png');">
+                                        <div class="card-body">
+
+
+                                            <div class="blog-inner">
+
+                                                <div class="mh-blog-post-info">
+                                                    <ul>
+                                                        <li><strong>Post On</strong><a href="#">16.5.22</a></li>
+                                                        <li><strong>By</strong><a href="#">Ahad Mjaddami</a></li>
+                                                    </ul>
+
+                                                </div>
+                                                <p>Counterfeit products are important and growing global problem, particularly in developing countries..</p>
+                                            </div>
+
+
+                                            <div class="footer text-center">
+
+
+                                                <a href="Blockchain.html" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Read More</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+
+
+
+
+
+                        <!-- 
+
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <img src="pre.png" alt="" class="img-fluid">
+                                <div class="blog-inner">
+                                    <h2><a href="Blockchain.html">ChainTech Blockchain new product </a></h2>
+                                    <div class="mh-blog-post-info">
+                                        <ul>
+                                            <li><strong>Post On</strong><a href="#">16.5.22</a></li>
+                                            <li><strong>By</strong><a href="#">Ahad Mjaddami</a></li>
+                                        </ul>
+                                    </div>
+                                    <p>Counterfeit products are important and growing global problem, particularly in developing countries..</p>
+                                    <a href="Blockchain.html">Read More</a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
                     <!-- <div class="col-sm-12 col-md-4">
                         <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                             <img src="assets/images/b-1.png" alt="" class="img-fluid">
